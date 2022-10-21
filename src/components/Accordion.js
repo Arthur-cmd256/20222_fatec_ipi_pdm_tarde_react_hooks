@@ -1,6 +1,6 @@
 import React from 'react'
 import {Card} from 'primereact/card'
-import "./Accordion.css"
+
 
 const Accordion = ({itens}) => {
     const expressaoJSX = itens.map((item, indice) => (
